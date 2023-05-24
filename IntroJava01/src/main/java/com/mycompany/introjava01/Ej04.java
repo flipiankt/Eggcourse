@@ -14,6 +14,7 @@ public class Ej04 {
         int edad = 26;
         String nombre = "Francy";
         System.out.println("Mi nombre es "+ nombre + " mi edad es " + edad);
-
+        
+ 
     }
 }
