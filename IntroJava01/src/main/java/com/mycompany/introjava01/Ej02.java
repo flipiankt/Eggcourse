@@ -8,15 +8,14 @@ package com.mycompany.introjava01;
  *
  * @author francyhoyos
  */
-public class Ej01 {
+public class Ej02 {
     
-       public static void main(String[] args) {
-            int numero;
-            double decimales;
-            String nombre;
-            boolean bandera;
-            char chari;
-            long edad;
-       }
-    
+     public static void main(String[] args) {
+        int numero = 3;
+        double decimales= 3.4;
+        String nombre= "Lilito";
+        boolean bandera= false;
+        char chari ;
+        long edad =89;
+     }
 }
