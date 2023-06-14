@@ -23,13 +23,16 @@ public class Ejercicio24Fibonacci {
        public static int fibonacci(int numero) {
          int fibo=0;
 
-        if (numero==1){
-            fibo=1;
-        }else if (numero==0){
-            fibo=0;
-        }else{
-      
-            fibo=fibonacci(numero-1)+fibonacci(numero-2);
+        switch (numero) {
+            case 1:
+                fibo=1;
+                break;
+            case 0:
+                fibo=0;
+                break;
+            default:
+                fibo=fibonacci(numero-1)+fibonacci(numero-2);
+                break;
         }
 
             return fibo; 
