@@ -5,6 +5,7 @@
 package com.mycompany.ejercicio1poo;
 
 import Entidades.Libro;
+import Servicios.LibroServicios;
 
 /**
  *Crear una clase llamada Libro que contenga los siguientes atributos: ISBN, Título, Autor,
@@ -17,9 +18,10 @@ import Entidades.Libro;
 public class Ejercicio1POO {
     
     public static void main(String[] args) {
- 
-        Libro l1 = new Libro();
-        l1.cargarLibro();
-        System.out.println(l1.toString());
+        
+        LibroServicios libroS = new LibroServicios();
+        
+        libroS.cargarLibro();
+        System.out.println(libroS.toString());
     }
 }

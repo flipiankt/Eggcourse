@@ -4,7 +4,8 @@
 
 package poo.ejercicio2poo;
 
-import Circunferencia.Circunferencia;
+import Entidades.Circunferencia;
+import Servicios.CircunferenciaServicios;
 
 /**
  *Declarar una clase llamada Circunferencia que tenga como atributo privado el radio de tipo real. A continuación, se deben crear los siguientes métodos:
@@ -19,13 +20,10 @@ public class Ejercicio2POO {
     
     public static void main(String[] args) {
         
-        Circunferencia c1 = new Circunferencia(2);
-        System.out.println(c1.toString());
-        c1.crearCircunferencia();
-        System.out.println(c1.toString());
-        c1.perimetro();
-        c1.area();
+       CircunferenciaServicios circun = new CircunferenciaServicios();
         
+        circun.crearCircunferencia();
+
         
     }
 }

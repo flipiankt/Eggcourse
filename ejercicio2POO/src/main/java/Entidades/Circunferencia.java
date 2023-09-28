@@ -2,7 +2,7 @@
 * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
 */
-package Circunferencia;
+package Entidades;
 
 import java.util.Scanner;
 
@@ -31,22 +31,18 @@ public class Circunferencia {
         this.radio = radio;
     }
     
-    public void crearCircunferencia(){
-        Scanner leer =new Scanner (System.in);
-        System.out.println("Ingrese el radio ");
-        this.radio = leer.nextDouble();
-    }
     
     public void area(){
         double pi = Math.PI;
         System.out.println("el area es "+pi*radio*radio);
+        
     }
     
-        public void perimetro(){
+    public void perimetro(){
         double pi = Math.PI;
         System.out.println("el perimetro es "+2*pi*radio);
     }
-
+    
     @Override
     public String toString() {
         return "Circunferencia{" + "radio=" + radio + '}';

@@ -4,7 +4,7 @@
 
 package poo.ejercicio5poo;
 
-import poo.ejercicio5poo.Servicios.Cuenta;
+import Entidades.Cuenta;
 
 /**
  *

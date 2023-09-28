@@ -4,7 +4,6 @@
 */
 package Entidades;
 
-import java.util.Scanner;
 
 /**
  * *Crear una clase llamada Libro que contenga los siguientes atributos: ISBN, Título, Autor,
@@ -30,21 +29,6 @@ public class Libro {
         this.numeroPaginas = numeroPaginas;
     }
     
-    public void cargarLibro(){
-        Scanner leer =new Scanner (System.in);
-            System.out.println("Ingrese el autor");
-        this.autor=leer.next();
-        System.out.println("Ingrese ISBN");
-        this.isbn= leer.nextInt();
-        System.out.println("Ingrese titulo");
-        this.titulo=leer.next();
-        System.out.println("Ingrese el numero de paginas");
-        this.numeroPaginas=leer.nextInt();
 }
 
-    @Override
-    public String toString() {
-        return "Libro{" + "isbn=" + isbn + ", titulo=" + titulo + ", autor=" + autor + ", numeroPaginas=" + numeroPaginas + '}';
-    }
-    
-}
+
